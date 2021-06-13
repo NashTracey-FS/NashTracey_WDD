@@ -1,0 +1,98 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+/*CSS Reset*/
+body, nav, section, footer, article, h1, h2, h3, p, a, ul, li, dt, dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 100%;
+    text-decoration: none;
+    font-weight: normal;
+    color: inherit;
+    box-sizing: border-box;
+}
+/* Typography Defaults*/
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-family: "Noto Sans JP" , sans-serif;
+    color: #ffffff;
+    background-color: #222222;
+    background-image:url('../images/dark-brown-hardwood.jpg');
+    background-repeat: repeat;
+}
+
+
+nav li{
+    display: inline-block;
+}
+
+
+h1,h2,h3,h5{
+    line-height: 1;
+    font-family: "Mate SC" , sans-serif;
+
+}
+
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 2.0rem;
+}
+h5{
+    font-size: 1.5rem;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+
+a:hover{
+    color: darkgoldenrod;
+}
+a:active{
+    color: darkgoldenrod;
+}
+
+/* Default Structure */
+
+nav,article,body > section, footer{
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 3.5rem;
+}
+
+#footer  {
+    border-top: .5rem solid #555555;
+
+}
+#footer p{
+    color: #555555;
+}
+#footer a{
+    color: #555555;
+}
+#footer a:hover{
+    color: darkgoldenrod;
+}
+#footer ul{
+    color: #555555;
+
+}
+#footer li:hover{
+    color: white;
+}
+#social li{
+    display: inline-block;
+}
+

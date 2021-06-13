@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfaa8f89-7b2a-436f-9697-f3e6223653a1" name="Default Changelist" comment="" />
+    <list default="true" id="bfaa8f89-7b2a-436f-9697-f3e6223653a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dark-brown-hardwood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/page1_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/page1_img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/page1_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/page1_img4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/20090820dutchy-patty.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2880px-Flag_of_Jamaica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/71M7asQEvLL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/JamaicaMargarita-177860177-56a171355f9b58b7d0bf5253.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Jamaican-Festival.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Jamaican-chicken-curry-1OPTM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Jamaican-cocktails-Bob-Marley-shot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Jamican-rum-cocktail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Oxtails-Recipe-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/curried-goat-and-oxtail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dngsodas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/jamaican-callaloo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -18,18 +42,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1tXYhADU3HdPtSXJGLfanRugKiJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,10 +76,14 @@
       <workItem from="1622917222404" duration="12000" />
       <workItem from="1622987818101" duration="582000" />
       <workItem from="1623013893300" duration="661000" />
+      <workItem from="1623601006522" duration="6092000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
