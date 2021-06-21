@@ -20,22 +20,23 @@ html{
 
 
 body{
-    font-size: 1.4rem;
-    line-height: 1.6;
-    font-family: "Noto Sans JP" , sans-serif;
+    font: 1.4rem/1.6 "Noto Sans JP", sans-serif;
     color: #ffffff;
-    background-color: #222222;
-    background-image:url('../images/dark-brown-hardwood.jpg');
-    background-repeat: repeat;
+    background:url('../images/dark-brown-hardwood.jpg');
+
 }
 
 
 nav li{
     display: inline-block;
 }
+#logo{
+    display: inline-block;
+    width: 15rem;
+    min-height: 5rem;
+}
 
-
-h1,h2,h3,h5{
+h1,h2,h3,h4,h5{
     line-height: 1;
     font-family: "Mate SC" , serif;
 
@@ -47,7 +48,7 @@ h2{
 h3{
     font-size: 2.0rem;
 }
-h5{
+h4{
     font-size: 1.5rem;
 }
 a:link {
@@ -72,27 +73,79 @@ nav,article,body > section, footer{
     padding: 3.5rem;
 }
 
-#footer  {
+footer  {
     border-top: .5rem solid #555555;
 
+
 }
-#footer p{
+footer p{
     color: #555555;
 }
-#footer a{
+footer a{
     color: #555555;
 }
-#footer a:hover{
+footer a:hover{
     color: darkgoldenrod;
 }
-#footer ul{
+footer ul{
     color: #555555;
 
 }
-#footer li:hover{
+footer li:hover{
     color: white;
 }
 #social li{
     display: inline-block;
 }
+
+
+body>section:after{
+    content: "";
+    display: block;
+    clear: both;}
+
+footer:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#main {
+    float: left;
+    margin-right: 2.5rem;
+    display: block;
+    overflow: auto;
+    padding: 8rem;
+}
+#main  img {
+    float: left;
+    margin: 5px;
+    overflow: auto;
+}
+#main h2{
+    font-size: 4.5rem;
+    text-align: justify;
+}
+#main p{
+    text-align: justify;
+}
+
+#sub section{
+    width: calc(100%/3 - 9rem/3);
+    float: left;
+    display: block;
+    overflow: auto;
+    padding: 8rem;
+}
+
+#sub section:not(:nth-of-type(3)){
+    margin-right: 2rem;
+
+}
+
+footer{
+    width: 100%;
+    float: left;
+    padding:5rem;
+}
+
 
