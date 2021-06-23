@@ -73,10 +73,18 @@ nav,article,body > section, footer{
     padding: 3.5rem;
 }
 
+nav{
+    font: 3.5rem "Mate SC", serif ;
+    text-align: center;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
 footer  {
     border-top: .5rem solid #555555;
-
-
 }
 footer p{
     color: #555555;
@@ -101,51 +109,56 @@ footer li:hover{
 
 body>section:after{
     content: "";
-    display: block;
     clear: both;}
 
 footer:after{
     content: "";
-    display: block;
     clear: both;
 }
-#main {
+main {
     float: left;
     margin-right: 2.5rem;
-    display: block;
     overflow: auto;
     padding: 8rem;
 }
-#main  img {
-    float: left;
-    margin: 5px;
-    overflow: auto;
-}
-#main h2{
+main h2{
     font-size: 4.5rem;
-    text-align: justify;
-}
-#main p{
-    text-align: justify;
+    text-align: left;
 }
 
-#sub section{
-    width: calc(100%/3 - 9rem/3);
-    float: left;
-    display: block;
+main article{
+    width: 100%;
+    height: auto;
+    padding: 5rem;
     overflow: auto;
-    padding: 8rem;
-}
-
-#sub section:not(:nth-of-type(3)){
-    margin-right: 2rem;
 
 }
+main article img{
+    float: left;
+    margin-right: 10px;
+    overflow:auto;
+}
+
+main section{
+
+    width: calc(100%/3 - 2rem);
+    float: left;
+    overflow: auto;
+}
+main section:not(:nth-of-type(3)){
+    margin-right: 2rem;}
+
 
 footer{
     width: 100%;
     float: left;
     padding:5rem;
+}
+footer section{
+    display: inline-block;
+    padding: .5rem;
+    width: auto;
+    height: auto;
 }
 
 
