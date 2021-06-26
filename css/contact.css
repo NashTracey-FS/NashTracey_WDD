@@ -1,0 +1,177 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+/*CSS Reset*/
+body, nav, section, footer, article, h1, h2, h3, p, a, ul, li, dt, dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 100%;
+    text-decoration: none;
+    font-weight: normal;
+    color: inherit;
+    box-sizing: border-box;
+}
+/* Typography Defaults*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font: 1.4rem/1.6 "Noto Sans JP", sans-serif;
+    color: #ffffff;
+    background:url('../images/dark-brown-hardwood.jpg');
+
+}
+
+
+nav li{
+    display: inline-block;
+}
+#logo{
+    display: inline-block;
+    width: 15rem;
+    min-height: 5rem;
+}
+
+h1,h2,h3,h4,h5{
+    line-height: 1;
+    font-family: "Mate SC" , serif;
+
+}
+
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 2.0rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+
+a:hover{
+    color: darkgoldenrod;
+}
+a:active{
+    color: darkgoldenrod;
+}
+
+/* Default Structure */
+
+nav,article,body > section, footer{
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 3.5rem;
+}
+
+nav{
+    font: 3.5rem "Mate SC", serif ;
+    text-align: center;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+footer  {
+    border-top: .5rem solid #555555;
+}
+footer p{
+    color: #555555;
+}
+footer a{
+    color: #555555;
+}
+footer a:hover{
+    color: darkgoldenrod;
+}
+footer ul{
+    color: #555555;
+
+}
+footer li:hover{
+    color: white;
+}
+#social li{
+    display: inline-block;
+}
+
+
+body>section:after{
+    content: "";
+    clear: both;}
+
+footer:after{
+    content: "";
+    clear: both;
+}
+main {
+    overflow: auto;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+main h1{
+    font-size: 4.5rem;
+    text-align: left;
+}
+
+main h2{
+    font-size: 2.5rem;
+}
+
+main input{
+    background:transparent;
+    border: #606060;
+}
+
+main textarea{
+    background:transparent;
+
+}
+
+main div{
+
+    width: calc(100%/2 - 2rem);
+    float: left;
+    overflow: auto;
+
+}
+
+main #right p{
+    display: inline-block;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    padding:.5rem;
+
+}
+
+main #left ul{
+    display: inline-block;
+    padding: .5rem;
+    width: auto;
+    height: auto;
+
+}
+
+
+footer{
+    overflow: auto;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+footer section{
+    display: inline-block;
+    padding: .5rem;
+    width: auto;
+    height: auto;
+}
