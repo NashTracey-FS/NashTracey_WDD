@@ -141,6 +141,7 @@ main textarea{
 main div{
 
     width: calc(100%/2 - 2rem);
+    padding: 1rem;
     float: left;
     overflow: auto;
 
